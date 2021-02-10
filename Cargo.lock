@@ -207,6 +207,7 @@ dependencies = [
  "serde",
  "serde_json",
  "statistical",
+ "timer",
  "version_check",
  "winapi",
 ]
@@ -645,6 +646,15 @@ checksum = "d326610f408c7a4eb6f51c37c330e496b08506c9457c9d34287ecc38809fb060"
 dependencies = [
  "term_size",
  "unicode-width",
+]
+
+[[package]]
+name = "timer"
+version = "0.1.0"
+dependencies = [
+ "cfg-if 1.0.0",
+ "libc",
+ "winapi",
 ]
 
 [[package]]

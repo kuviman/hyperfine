@@ -15,6 +15,11 @@ cfg_if! {
 }
 use std::process::Child;
 
+pub type Scalar = f64;
+
+/// Type alias for unit of time
+pub type Second = Scalar;
+
 /// Defines start functionality of a timer.
 pub trait TimerStart {
     fn start() -> Self;
